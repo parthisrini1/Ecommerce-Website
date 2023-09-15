@@ -1,0 +1,303 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Navbar start*/
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bolder;
+    
+}
+a{
+    text-decoration: none;
+    color: #f8f6f6;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: white;
+    background-color: red;
+    padding: 10px;
+}
+P{
+    color: #f3ecec;   
+}
+.container{
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #070707;
+    flex-wrap: wrap;
+
+}
+.logo{
+    background-color: white;
+}
+/*Navbar start*/
+
+.Brand{
+    padding: 20px;
+    margin-left: 40px;
+    text-shadow: 2px 2px 4px #050505;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+    
+
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: white;
+}
+.btn{
+    display:inline-block;
+    background: #ff523b;
+    color: #f5f2f2;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: rgb(97, 8, 199);
+}
+ 
+.header{
+    background: #eb88eb;
+    flex-wrap: wrap;
+}
+
+.container1{
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.row1{
+    display: flex;
+    padding: 50px;
+    
+    
+}
+.col{
+   padding: 100px;
+    
+}
+
+.col1>img{    
+    width: 80%;
+    flex-wrap: wrap;
+
+}
+/* Dress Design code*/
+.container2{
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    background-color: #0d0d0e;
+    position: absolute;
+    flex-wrap: wrap;
+    
+}
+
+.row3{
+    display: flex;
+}
+
+.row4{
+    display: flex;
+}
+
+.row5{
+    display: flex;
+    background-color: white;
+}
+
+.row6{
+    display: flex;
+        
+}
+
+.column{
+    padding-bottom: 70px;
+}
+.column>img{
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.column>img:hover{
+    background-color: rgb(245, 241, 241);
+    padding: 10px;
+    
+    
+}
+.column>p{
+ margin-left: 50px;
+  color: white;
+  font-weight: bolder;
+}
+
+.Dress{
+    padding: 60px;
+    position: relative;
+    bottom: -40px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #f8f8f4;
+}
+
+
+.button1{
+    margin-left: 52px;
+    margin-top: 5px;
+    color: rgb(243, 239, 239);
+    background-color: rgb(10, 10, 10);
+    padding: 3px;
+    font-size: 14px;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+
+.button2{
+    margin-left: 22px;
+    margin-top: 5px;
+    color: rgb(243, 241, 241);
+    background-color:rgb(3, 3, 3);
+    font-weight: bolder;
+    padding: 6px;
+    font-size: 14px;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+
+/* Dress Design code End*/
+
+/* Footer  code Start*/
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(29, 28, 28);
+    padding: 50px;
+}
+.footer div h4 {
+    font-size: 20px;
+    text-decoration:wavy;
+    color:rgb(243, 240, 240);
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #da0707;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.footer div p {
+    font-size: 13px;
+    padding-top: 15px;
+    font-weight: 600;
+    color: white;
+    flex-wrap: wrap;
+}
+.Copyright{
+    padding: 20px;
+    position: absolute;
+    background-color: rgb(8, 8, 8);
+    width: 100%;
+}
+
+.Copyright>img{
+    width: 5%;
+    color: rgb(236, 7, 7);
+    box-shadow: white;
+    background-color: rgb(247, 246, 241);
+}
+.Copyright>p{
+    width: 44%;
+    color: rgb(245, 242, 242);
+    margin-top: -22px;
+    margin-left: 70px;
+    text-shadow: 2px 2px 4px #fafaf7;
+    
+}
+
+.card{
+    margin-top: -22px;
+    margin-left: 900px;
+    width: 5%;
+    display: flex;
+    gap: 10px;
+}
+.card>img{
+    width: 600%;
+    height: 40%;
+}
+/* Footer Code End*/
+
+@media screen and (min-width:300px) and (max-width:600px) {
+    .header{
+        flex-direction: column;
+        
+    }
+
+    .container{
+        flex-direction: column;
+    }
+   
+.container1{
+    flex-direction: column;
+}
+
+.container1> .row1{
+    
+    flex-direction: row-reverse;
+    
+}
+
+
+.col1>img{    
+    width: 80%;
+    flex-direction: column;
+
+}
+
+    }
+
+    
+    
